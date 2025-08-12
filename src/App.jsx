@@ -9,7 +9,7 @@ import Starfield from "./components/Starfield";
 
 function App() {
   return (
-    <div className="relative min-h-screen bg-black text-white">
+    <div className="relative min-h-screen bg-blue-900 text-white">
   <div className="absolute inset-0 z-0">
     <Starfield />
   </div>

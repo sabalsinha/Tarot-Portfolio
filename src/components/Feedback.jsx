@@ -8,7 +8,7 @@ export default function Feedback() {
   ];
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center px-6 py-12 bg-black text-white">
+    <div className="min-h-screen flex flex-col justify-center items-center px-6 py-12bg-blue-900 text-white">
       <h2 className="text-3xl font-bold text-pink-400 mb-8">Client Feedback ❤️</h2>
       <div className="grid md:grid-cols-3 gap-6 max-w-5xl w-full">
         {feedbacks.map((fb, idx) => (
